@@ -1,0 +1,25 @@
+
+header{
+	background:url("../img/semua.jpg")no-repeat center;
+	height:678px;
+	margin:0px;
+}
+
+.navbar {
+	background:transparent;
+	border:none;
+}
+
+.middle {
+	
+	padding-top:250px;
+	padding-left:0px;
+	padding-right:600px;	
+}
+
+.middle h1 {
+	font-size:28px;
+	font-family:verdana;
+	text-align:center;
+	
+}

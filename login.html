@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Pemesanan Tiket</title>
+ <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  
+</head>
+<body style="height:2000px width:1000px">
+<header id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                 <span class="light">Pemesanan Tiket</span>
+                </a>
+            </div>
+
+            
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="#slide-4">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+       
+    </nav>
+	<div class="container" id="middle">
+	<h1><b>Silahkan Pesan Tiket</b></h1>
+	<h3><b>Harga Sama untuk semua kalangan:) </b></h3>
+	</div>	
+</header>
+	
+ 
+ 
+</body>
+
+
+<footer>
+	<div class="slide story" id="slide-4">
+		<div class="container">
+			<div>
+				<div>&nbsp;</div>
+			</div><!-- /row -->
+			<div>
+				<div><h1>Login</h1></div>
+			</div>
+			<div>
+				<div>&nbsp;</div>
+			</div><!-- /row -->
+			<hr id="garistp"></hr>
+			<div>
+				<div><h3>Masukkan Username & Password Anda</h3></div>
+			</div>
+			<div>
+				<div>&nbsp;</div>
+			</div>
+			<div>
+				<div>&nbsp;</div>
+			</div>
+			<div id="home-row-2">
+				<div class="col-12 col-lg-3 col-sm-6">
+						<div>&nbsp;</div>
+						<div>
+						
+						<table width= "225" cellpadding= "4">
+						<tr><td>Username </td><td><input id= "myUsername" name= "username"></td></tr>
+						<tr><td>Password </td><td><input id= "myPassword" name= "password"></td></tr>
+						<tr><td><button id="tekan" style="color:#ecf0f1; background-color:blue; font-size:12px; font-family:arial; padding:1px 5px 1px 5px;" >Masuk</button></td></tr>
+						</table>
+						</div>
+
+						<script>
+							document.getElementById("tekan").onclick = function() {
+							var a = document.getElementById("myUsername").value==123;
+							var b = document.getElementById("myPassword").value==1234;
+							if (a&&b==true) {
+							alert("Selamat Datang :) ");
+								window.location.href= "index.html"; 
+							} else 
+	
+							alert("Maaf Password atau Username  anda salah :) ");
+                
+							}
+						</script>
+				</div>
+			</div>
+	</div>
+</footer>
+
+</html>
